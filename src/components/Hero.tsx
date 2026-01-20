@@ -74,8 +74,17 @@ const Hero = () => {
               animate={{ rotate: 360 }}
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
             >
-              <div className="w-full h-full rounded-full bg-card flex items-center justify-center">
-                <span className="text-4xl md:text-5xl font-bold gradient-text">KZ</span>
+              <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden">
+                <img 
+                  src="/profile.png" 
+                  alt="Kashmala Zeb" 
+                  className="w-full h-full object-cover rounded-full"
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none';
+                    e.currentTarget.nextElementSibling.style.display = 'flex';
+                  }}
+                />
+                <span className="text-4xl md:text-5xl font-bold gradient-text hidden">KZ</span>
               </div>
             </motion.div>
             <motion.div
