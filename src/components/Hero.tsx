@@ -76,7 +76,7 @@ const Hero = () => {
             >
               <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/profile.png" 
+                  src="/profile.jpeg" 
                   alt="Kashmala Zeb" 
                   className="w-full h-full object-cover rounded-full"
                   onError={(e) => {
