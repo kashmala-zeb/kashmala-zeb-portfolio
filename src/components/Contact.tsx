@@ -17,7 +17,7 @@ const Contact = () => {
   const contactInfo = [
     { icon: Mail, label: "Email", value: "malaxeb7@gmail.com" },
     { icon: MapPin, label: "Location", value: "Pakistan" },
-    { icon: Phone, label: "Phone", value: "+92 XXX XXXXXXX" },
+    { icon: Phone, label: "Phone", value: "+92 316 1923775" },
   ];
 
   const socialLinks = [
