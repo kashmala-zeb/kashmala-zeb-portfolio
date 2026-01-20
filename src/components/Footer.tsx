@@ -22,9 +22,6 @@ const Footer = () => {
           {/* Logo & Copyright */}
           <div className="flex flex-col items-center md:items-start gap-2">
             <span className="text-2xl font-bold gradient-text">KZ</span>
-            <p className="text-sm text-muted-foreground flex items-center gap-1">
-              Built with <Heart className="w-4 h-4 text-red-500 animate-pulse" /> by Kashmala Zeb
-            </p>
             <p className="text-xs text-muted-foreground">
               © {new Date().getFullYear()} All rights reserved.
             </p>

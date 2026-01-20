@@ -10,8 +10,8 @@ const Education = () => {
     {
       degree: "Bachelor of Software Engineering",
       institution: "COMSATS University Islamabad, Abbottabad",
-      period: "2019 - 2023",
-      description: "Specialized in Software Engineering and Development. Graduated with honors.",
+      period: "2023 - 2027",
+      description: "Currently pursuing Software Engineering and Development. Specializing in modern software development practices.",
       icon: GraduationCap,
     },
   ];
