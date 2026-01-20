@@ -145,9 +145,9 @@ const Hero = () => {
         {/* Social Links */}
         <motion.div variants={itemVariants} className="flex justify-center gap-6">
           {[
-            { icon: Github, href: "#", label: "GitHub" },
-            { icon: Linkedin, href: "#", label: "LinkedIn" },
-            { icon: Mail, href: "#contact", label: "Email" },
+            { icon: Github, href: "https://github.com/kashmala-zeb", label: "GitHub" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/kashmala-zeb048/", label: "LinkedIn" },
+            { icon: Mail, href: "mailto:malaxeb7@gmail.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <motion.a
               key={label}
@@ -160,23 +160,6 @@ const Hero = () => {
               <Icon className="w-6 h-6 text-primary" />
             </motion.a>
           ))}
-        </motion.div>
-      </motion.div>
-
-      {/* Scroll Indicator */}
-      <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 2, duration: 0.5 }}
-      >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 1.5, repeat: Infinity }}
-          className="flex flex-col items-center gap-2 text-muted-foreground"
-        >
-          <span className="text-sm">Scroll Down</span>
-          <ArrowDown className="w-5 h-5" />
         </motion.div>
       </motion.div>
     </section>

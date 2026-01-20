@@ -11,17 +11,15 @@ const Skills = () => {
       skills: [
         { name: "Flutter", level: 95, color: "from-cyan-400 to-blue-500" },
         { name: "Dart", level: 90, color: "from-blue-400 to-cyan-500" },
-        { name: "React Native", level: 75, color: "from-cyan-500 to-teal-500" },
-        { name: "Android (Kotlin)", level: 70, color: "from-purple-400 to-pink-500" },
       ],
     },
     {
       title: "Frontend & Web",
       skills: [
         { name: "React.js", level: 90, color: "from-cyan-400 to-blue-500" },
-        { name: "TypeScript", level: 85, color: "from-blue-500 to-indigo-500" },
         { name: "Tailwind CSS", level: 92, color: "from-teal-400 to-cyan-500" },
-        { name: "Next.js", level: 78, color: "from-gray-400 to-gray-600" },
+        { name: "Bootstrap", level: 85, color: "from-purple-400 to-pink-500" },
+        { name: "HTML/CSS", level: 88, color: "from-orange-400 to-red-500" },
       ],
     },
     {

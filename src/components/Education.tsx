@@ -8,19 +8,19 @@ const Education = () => {
 
   const education = [
     {
-      degree: "Bachelor of Computer Science",
-      institution: "University of Technology",
+      degree: "Bachelor of Software Engineering",
+      institution: "COMSATS University Islamabad, Abbottabad",
       period: "2019 - 2023",
-      description: "Specialized in Artificial Intelligence and Software Engineering. Graduated with honors.",
+      description: "Specialized in Software Engineering and Development. Graduated with honors.",
       icon: GraduationCap,
     },
   ];
 
   const certifications = [
-    { name: "Google Flutter Development", issuer: "Google", year: "2023" },
+    { name: "Google Flutter Development", issuer: "Google", year: "2024" },
     { name: "TensorFlow Developer Certificate", issuer: "Google", year: "2023" },
-    { name: "AWS Cloud Practitioner", issuer: "Amazon", year: "2022" },
-    { name: "React Advanced Patterns", issuer: "Meta", year: "2022" },
+    { name: "AWS Cloud Practitioner", issuer: "Amazon", year: "2025" },
+    { name: "React Advanced Patterns", issuer: "Meta", year: "2026" },
   ];
 
   return (

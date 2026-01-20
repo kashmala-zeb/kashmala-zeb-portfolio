@@ -15,14 +15,14 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "kashmala@example.com" },
+    { icon: Mail, label: "Email", value: "malaxeb7@gmail.com" },
     { icon: MapPin, label: "Location", value: "Pakistan" },
     { icon: Phone, label: "Phone", value: "+92 XXX XXXXXXX" },
   ];
 
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/kashmala-zeb", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/kashmala-zeb048/", label: "LinkedIn" },
     { icon: Twitter, href: "#", label: "Twitter" },
   ];
 
